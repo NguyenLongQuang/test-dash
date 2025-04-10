@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Play DASH Stream</title>
+  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+</head>
+<body>
+  <h2>DASH Video Player</h2>
+  <video id="videoPlayer" controls autoplay width="640" height="360"></video>
+
+  <script>
+    const url = "output.mpd"; // Replace with your actual MPD file URL
+    const player = dashjs.MediaPlayer().create();
+
+    // Enable adaptive bitrate streaming
+    player.updateSettings({
+      streaming: {
+        abr: {
+          autoSwitchBitrate: {
+            video: true,
+            audio: true
+          }
+        }
+      }
+    });
+
+    // Optional: Log quality changes
+    player.on(dashjs.MediaPlayer.events.QUALITY_CHANGE_RENDERED, function (e) {
+      console.log(`Switched to quality index ${e.newQuality} for ${e.mediaType}`);
+    });
+
+    player.initialize(document.querySelector("#videoPlayer"), url, true);
+  </script>
+</body>
+</html>
+

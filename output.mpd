@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="urn:mpeg:dash:schema:mpd:2011"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+	profiles="urn:mpeg:dash:profile:isoff-live:2011"
+	type="static"
+	mediaPresentationDuration="PT4M26.3S"
+	minBufferTime="PT22.4S">
+	<ProgramInformation>
+		<Title>LONA ft Ricky Star | Thích Hay Là Yêu Còn Chưa Biết | Official MV</Title>
+	</ProgramInformation>
+	<Period id="0" start="PT0.0S">
+		<AdaptationSet id="0" contentType="video" segmentAlignment="true" bitstreamSwitching="true">
+			<Representation id="0" mimeType="video/mp4" codecs="avc1.640028" bandwidth="5000000" width="1920" height="1080" frameRate="25/1">
+				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="59904" r="1" />
+						<S d="67072" />
+						<S d="75264" />
+						<S d="84480" />
+						<S d="60416" />
+						<S d="66048" />
+						<S d="105984" />
+						<S d="63488" />
+						<S d="83456" />
+						<S d="90112" />
+						<S d="135680" />
+						<S d="58368" />
+						<S d="78336" />
+						<S d="69632" />
+						<S d="64512" />
+						<S d="89600" />
+						<S d="59392" />
+						<S d="58368" />
+						<S d="62976" />
+						<S d="78848" />
+						<S d="59904" />
+						<S d="63488" />
+						<S d="87040" />
+						<S d="61440" />
+						<S d="67584" />
+						<S d="64512" />
+						<S d="62976" />
+						<S d="61440" />
+						<S d="94208" />
+						<S d="65024" />
+						<S d="90624" />
+						<S d="62976" />
+						<S d="60416" />
+						<S d="65024" />
+						<S d="54784" />
+						<S d="55808" />
+						<S d="59904" />
+						<S d="57344" />
+						<S d="174080" />
+						<S d="128000" r="1" />
+						<S d="146944" />
+						<S d="66048" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet id="1" contentType="video" segmentAlignment="true" bitstreamSwitching="true">
+			<Representation id="1" mimeType="video/mp4" codecs="avc1.64001f" bandwidth="3000000" width="1280" height="720" frameRate="25/1">
+				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="59904" r="1" />
+						<S d="67072" />
+						<S d="75264" />
+						<S d="84480" />
+						<S d="60416" />
+						<S d="66048" />
+						<S d="105984" />
+						<S d="63488" />
+						<S d="83456" />
+						<S d="90112" />
+						<S d="107520" />
+						<S d="86528" />
+						<S d="78336" />
+						<S d="58880" />
+						<S d="55808" />
+						<S d="62976" />
+						<S d="84480" />
+						<S d="79360" />
+						<S d="62976" />
+						<S d="78848" />
+						<S d="59904" />
+						<S d="63488" />
+						<S d="87040" />
+						<S d="61440" />
+						<S d="67584" />
+						<S d="64512" />
+						<S d="62976" />
+						<S d="61440" />
+						<S d="94208" />
+						<S d="65024" />
+						<S d="90624" />
+						<S d="62976" />
+						<S d="60416" />
+						<S d="65024" />
+						<S d="54784" />
+						<S d="52224" />
+						<S d="63488" />
+						<S d="57344" />
+						<S d="174080" />
+						<S d="128000" r="1" />
+						<S d="146944" />
+						<S d="66048" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet id="2" contentType="video" segmentAlignment="true" bitstreamSwitching="true">
+			<Representation id="2" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="1500000" width="854" height="480" frameRate="25/1">
+				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="59904" r="1" />
+						<S d="67072" />
+						<S d="75264" />
+						<S d="84480" />
+						<S d="60416" />
+						<S d="66048" />
+						<S d="105984" />
+						<S d="63488" />
+						<S d="83456" />
+						<S d="70144" />
+						<S d="67072" />
+						<S d="57344" />
+						<S d="89600" />
+						<S d="78336" />
+						<S d="52736" />
+						<S d="61952" />
+						<S d="62976" />
+						<S d="84480" />
+						<S d="79360" />
+						<S d="62976" />
+						<S d="78848" />
+						<S d="59904" />
+						<S d="63488" />
+						<S d="87040" />
+						<S d="61440" />
+						<S d="67584" />
+						<S d="64512" />
+						<S d="62976" />
+						<S d="61440" />
+						<S d="94208" />
+						<S d="65024" />
+						<S d="90624" />
+						<S d="62976" />
+						<S d="60416" />
+						<S d="62464" />
+						<S d="57344" />
+						<S d="52736" />
+						<S d="62976" />
+						<S d="57344" />
+						<S d="174080" />
+						<S d="128000" r="1" />
+						<S d="146944" />
+						<S d="66048" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet id="3" contentType="video" segmentAlignment="true" bitstreamSwitching="true">
+			<Representation id="3" mimeType="video/mp4" codecs="avc1.64001e" bandwidth="800000" width="640" height="360" frameRate="25/1">
+				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="59904" r="1" />
+						<S d="67072" />
+						<S d="75264" />
+						<S d="84480" />
+						<S d="60416" />
+						<S d="66048" />
+						<S d="71680" />
+						<S d="76288" />
+						<S d="70656" />
+						<S d="65536" />
+						<S d="58880" />
+						<S d="104448" />
+						<S d="89600" />
+						<S d="78336" />
+						<S d="52736" />
+						<S d="61952" />
+						<S d="62976" />
+						<S d="84480" />
+						<S d="79360" />
+						<S d="62976" />
+						<S d="78848" />
+						<S d="59904" />
+						<S d="63488" />
+						<S d="87040" />
+						<S d="61440" />
+						<S d="67584" />
+						<S d="64512" />
+						<S d="62976" />
+						<S d="61440" />
+						<S d="94208" />
+						<S d="65024" />
+						<S d="90624" />
+						<S d="62976" />
+						<S d="60416" />
+						<S d="62464" />
+						<S d="57344" />
+						<S d="55808" />
+						<S d="59904" />
+						<S d="57344" />
+						<S d="177664" />
+						<S d="128000" r="1" />
+						<S d="143360" />
+						<S d="66048" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet id="4" contentType="audio" segmentAlignment="true" bitstreamSwitching="true" lang="eng">
+			<Representation id="4" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128000" audioSamplingRate="44100">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<SegmentTemplate timescale="44100" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="203492" />
+						<S d="205824" />
+						<S d="231424" />
+						<S d="259072" />
+						<S d="291840" />
+						<S d="207872" />
+						<S d="227328" />
+						<S d="246784" />
+						<S d="263168" />
+						<S d="243712" />
+						<S d="225280" />
+						<S d="202752" />
+						<S d="360448" />
+						<S d="308224" />
+						<S d="270336" />
+						<S d="181248" />
+						<S d="214016" />
+						<S d="216064" />
+						<S d="291840" />
+						<S d="273408" />
+						<S d="217088" />
+						<S d="271360" />
+						<S d="205824" />
+						<S d="219136" />
+						<S d="300032" />
+						<S d="211968" />
+						<S d="232448" />
+						<S d="222208" />
+						<S d="217088" />
+						<S d="211968" />
+						<S d="324608" />
+						<S d="223232" />
+						<S d="312320" />
+						<S d="217088" />
+						<S d="207872" />
+						<S d="216064" />
+						<S d="197632" />
+						<S d="181248" />
+						<S d="217088" />
+						<S d="197632" />
+						<S d="600064" />
+						<S d="440320" />
+						<S d="441344" />
+						<S d="505856" />
+						<S d="233472" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>
